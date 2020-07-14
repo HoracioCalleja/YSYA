@@ -1,0 +1,159 @@
+.img-inicio {
+  background-image: url("../img/inicio/home-small.jpg");
+  min-height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-galeria{
+  min-height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/galeria/galeria-small.jpg");
+}
+.img-historia{
+  background-image: url("../img/historia/alejo-mupha-small.jpg");
+  min-height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-shows{
+  background-image: url("../img/shows/colta.jpg");
+  min-height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.contenedor-img {
+  background-image: url("../img/fondo/opa-bag.jpg");
+}
+.logo{
+  animation: bounce;
+  animation-duration: 1.5s;
+}
+.shake:hover{
+  animation: jackInTheBox;
+  animation-duration: 2s;
+}
+.activo{
+  color:rgb(251, 255, 0);
+}
+.logo a:hover{
+  text-decoration: overline;
+}
+.texto-blanco{
+  color:white
+}
+
+
+.bg-black{
+  background-color: rgb(0, 0, 0);
+}
+.bg-blanco{
+  background-color:white;
+}
+.bg-amarillo{
+  background-color:  rgba(255, 255, 0, 0.699);;
+}
+nav a{
+  color:white;
+}
+.reset-hover a:hover{
+  color: rgb(241, 241, 58);
+  }
+  .amarillo{
+    color: rgb(251, 255, 0);
+  }
+  .nav-text a{
+    font-family:"Krona One", sans-serif !important;
+  }
+  .pie a, p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .titulo {
+    font-family: "Krona One", sans-serif !important;
+  }
+  .pie{
+    background-color:rgb(251, 255, 0);
+  }
+  .reset-links a {
+    text-decoration: none;
+    color: black;
+  }
+  .fb:hover {
+    color: blue;
+  }
+  .tw:hover {
+    color: rgb(15, 164, 190);
+  }
+
+  .yt:hover{
+    color: rgb(255, 0, 0);
+  }
+  .sp:hover{
+    color: rgb(47, 182, 47);
+  }
+  p {
+    line-height: 2;
+  }
+.contenedor-img a:hover{
+  opacity:0.5;
+}
+.card button:hover{
+  background-color:rgb(251, 255, 0); ;
+}
+  @media (min-width: 768px){
+    .img-galeria{
+      background-image: url("../img/galeria/galeria.jpg");
+      min-height: 1000px;
+      
+    }
+    .img-shows{
+      background-image: url("../img/shows/colta-md.jpg");
+      min-height: 1000px;
+    }
+    .img-inicio{
+      min-height: 1000px;
+      background-image: url("../img/inicio/home.jpg");
+    }
+    .img-historia{
+      min-height: 1000px;
+      background-image: url("../img/historia/quinto.jpg");
+    }
+    p{
+      font-size: 1.2rem;
+    }
+
+    .iconos-size{
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 1024px)
+{
+  .img-galeria{
+    background-image: url("../img/galeria/galeria.jpg");
+    min-height: 1300px;
+    
+  }
+  .img-inicio{
+    min-height: 1300px;
+    background-image: url("../img/inicio/home.jpg");
+  }
+  .img-historia{
+    min-height: 1300px;
+  }
+
+  p{
+    font-size: 1.2rem;
+  }
+
+  .newsletter {
+    font-size: 2rem;
+  }
+}
