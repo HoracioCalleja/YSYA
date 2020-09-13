@@ -1,6 +1,6 @@
 # YSYA_web
 
-https://horaciocalleja.github.io/YSYA/
+https://horaciocalleja.github.io/YSYA_web/
 
 FINAL PRIMER CUATRIMESTRE
 
